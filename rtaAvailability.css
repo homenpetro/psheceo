@@ -1,0 +1,119 @@
+.productAvailabilityMessage {
+  font-size: 12px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  width: 160px;
+}
+@media screen and (max-width: 1024px) {
+  #productAvailabilityModal {
+    left: 80%;
+  }
+  .productInformation {
+    width: 74.66666666666667%;
+  }
+  .productAvailabilityContent {
+    width: 315px;
+    top: 10px;
+  }
+  #shippingAddress,
+  .productAvailabilityMessage {
+    width: 100%;
+  }
+}
+.lt-ie8 .productAvailabilityContent {
+  width: 300px;
+}
+#productAvailabilityModal {
+  left: 116.66667%;
+  top: 110px;
+  width: 178px;
+  position: absolute;
+  font-size: 12px;
+  border-top: none;
+}
+#productAvailabilityModal .btn {
+  background-color: black;
+  background-image: none;
+}
+#productAvailabilityModal .tooltip-arrow {
+  position: absolute;
+  top: 50%;
+  width: 0;
+  height: 14px;
+  border-color: transparent;
+  border-style: solid;
+  left: 80%;
+  margin-left: -10px;
+  border-bottom-color: white;
+  border-width: 0 10px 10px 10px;
+  top: -10px;
+}
+#productAvailabilityModal .productAvailabilityModalContent {
+  margin: 10px;
+}
+#productAvailabilityModal .productAvailabilityradio input[type="radio"] {
+  margin-right: 0 !important;
+  vertical-align: middle;
+}
+#productAvailabilityModal .productAvailabilityradio .pdpPickupRadio,
+#productAvailabilityModal .productAvailabilityradio .pdpShipRadio {
+  display: inline;
+}
+#productAvailabilityModal .productAvailabilityradio .pdpPickupRadio span,
+#productAvailabilityModal .productAvailabilityradio .pdpShipRadio span {
+  vertical-align: middle;
+}
+#productAvailabilityModal .productAvailabilityradio .pdpPickupRadio {
+  margin-left: 10px;
+}
+#productAvailabilityModal .avail-wrap {
+  margin-top: 8px;
+}
+#productAvailabilityModal .selectedShippingLocation input {
+  padding: 4px 4px;
+  width: 92px;
+  margin-left: 15px;
+}
+#productAvailabilityModal .selectedShippingLocation label {
+  font-weight: normal;
+}
+#productAvailabilityModal .selectedShippingLocation .label {
+  padding-top: 0;
+  padding-bottom: 4px;
+}
+#productAvailabilityModal .selectedShippingLocation #shipToInput {
+  margin-right: 0!important;
+}
+#productAvailabilityModal .modal-footer {
+  font-weight: bold;
+  padding: 10px 5px 10px;
+}
+#productAvailabilityModal .modal-footer .productRtaBtn {
+  display: inline-block;
+  margin-right: 4px;
+}
+.productAddToCart .chkAvailability {
+  margin-bottom: 16px !important;
+  border-top: none !important;
+  border-bottom: none !important;
+  overflow: auto;
+}
+.productAddToCart .chkAvailability .manageAvailability {
+  float: right;
+}
+.productAddToCart .chkAvailability .manageAvailability:after {
+  font-family: graingerFont;
+  content: "\e62c";
+  font-weight: 400;
+  margin: 5px 0 0 10px;
+  font-size: 12px;
+}
+.productAddToCart .chkAvailability .pickupAvailDate {
+  float: right;
+}
+.productAddToCart .catalogBorder {
+  border-top: none !important;
+}
+.productAddToCart .catalogBorder .avlDisplay {
+  display: none !important;
+}

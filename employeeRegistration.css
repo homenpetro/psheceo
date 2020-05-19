@@ -1,0 +1,209 @@
+/* Less elements, utility, and global framework imports */
+/* These need to be added to EVERY less file we use */
+/*---------------------------------------------------
+    LESS Elements 0.9
+  ---------------------------------------------------
+    A set of useful LESS mixins
+    More info at: http://lesselements.com
+  ---------------------------------------------------*/
+.display-inline-block {
+  display: inline-block;
+  vertical-align: middle;
+  *display: inline;
+  zoom: 1;
+}
+/* GRIDS n GRIDS n GRIDS!!! */
+/* Some combination of flex-grid from bourbon */
+/* and Chris Coyier's don't overthink it grids */
+/* We have a 12 col layout  */
+/* Colors */
+/***********/
+/* BUTTONS */
+/***********/
+/* Orange #E2791C */
+/* Gray #666666 */
+/* white-blue #DDDDDD */
+/* red #BB0D02 */
+/* Modifiers for primary commerce (orange) */
+/* #E6A529 */
+/* #EA730A */
+/* #ED8113 */
+/* Modifiers for primary non-commerce (gray) */
+/* #757575 */
+/* #575757 */
+/* #686868 */
+/* Modifiers for secondary (white) */
+/* #E5E5E5 */
+/* #D6D6D6 */
+/* #E0E0E0 */
+/* Modifiers for the branding buttons */
+/* red #CA1C05 */
+/* dark red #A40A01 */
+/* medium red #6C1402 */
+/* Dropdown list highlight */
+/* light blue E0E9ED */
+/***************/
+/* END BUTTONS */
+/***************/
+/* Primary site colors */
+/* dark blue #145579 */
+/* #999999 */
+/* #333333 */
+/* #666666 */
+/* this color is somewhere between light and medium gray #ABABAB */
+/* #CCCCCC */
+/* #A4A3A3 */
+/* A1A1A1 */
+/* E4E4E4 */
+/* #777777 */
+/* #29333b */
+/* Secondary and Background Colors */
+/* white #FFFFFF */
+/* very light gray #EEEEEE */
+/* very light blue #E0E9ED */
+/* light blue #1FADDC */
+/* red #AD3333 */
+/* orange #E2791C */
+/* dark gray #2B2B2B */
+/* medium gray #424242 */
+/* #F2F2F2 */
+/* this color is somewhere between light and medium gray #ABABAB */
+/* forms */
+/* medium gray #CCCCCC */
+/* light gray #EEEEEE */
+/* price */
+/* green #257238 */
+/* red #AD3333 */
+/* Alert Colors */
+/* green #257238 */
+/* red #AD3333 */
+/* yellow #F26823 */
+/* Password Strength Meter */
+/* yellow #FFD700 */
+/* orange #FFAE00 */
+/* green #257238 */
+/*Search Color*/
+/*White #FFFFFF*/
+/*Search Color*/
+/*Black #000000*/
+/* Dimensions */
+/* Number of columns in our grid. Used in mixins.less */
+/* Modals */
+/* typography */
+/* Side Nav */
+/* Responsive */
+/* Breakpoints */
+/* Icon Fonts Data */
+#employeeRegistration {
+  width: 66.66666666666667%;
+  padding: 10px;
+  margin-bottom: 10px;
+  float: left;
+  float: none;
+  margin-top: 20px;
+  padding: 20px;
+}
+.lt-ie8 #employeeRegistration {
+  width: 64.66666666666667%;
+}
+#employeeRegistration h3 {
+  font-weight: 700;
+  margin-top: 10px;
+  padding-top: 20px;
+  border-top: 1px solid #ccc;
+  background: radial-gradient(center, ellipse cover, rgba(25, 25, 25, 0.35) 0%, rgba(0, 0, 0, 0) 100%);
+  /* Chrome10+,Safari5.1+ */
+
+  background: radial-gradient(ellipse 70% 10px at top, rgba(25, 25, 25, 0.35) 0%, rgba(255, 255, 255, 0) 80%);
+  /* W3C */
+
+}
+#employeeRegistration #errors {
+  color: #ad3333;
+}
+#employeeRegistration #errors li {
+  margin-left: 25px;
+}
+#employeeRegistration #errors li:first-child {
+  margin-top: -15px;
+}
+#employeeRegistration input[type="text"],
+#employeeRegistration input[type="password"],
+#employeeRegistration input.disabled {
+  width: 477px;
+}
+#employeeRegistration #racfId,
+#employeeRegistration .countryDialingCodeTelephoneWithExt #phonenumber {
+  width: 238px;
+}
+#employeeRegistration .countryDialingCodeTelephoneWithExt {
+  margin-bottom: 10px;
+}
+#employeeRegistration .countryDialingCodeTelephoneWithExt:after,
+#employeeRegistration .countryDialingCodeTelephoneWithExt:before {
+  content: " ";
+  /* 1 */
+
+  display: table;
+  /* 2 */
+
+}
+#employeeRegistration .countryDialingCodeTelephoneWithExt:after {
+  clear: both;
+}
+.lt-ie8 #employeeRegistration .countryDialingCodeTelephoneWithExt {
+  clear: both;
+  zoom: 1;
+}
+#employeeRegistration .countryDialingCodeTelephoneWithExt .formField {
+  float: left;
+  margin-right: 10px;
+}
+#employeeRegistration .countryDialingCodeTelephoneWithExt #phoneextension {
+  width: 90px;
+}
+#employeeRegistration .countryDialingCodeTelephoneWithExt .phoneExt {
+  margin-left: 10px;
+}
+#employeeRegistration #noRacfidCheckboxSection {
+  margin-top: 10px;
+}
+#employeeRegistration .personalInfoContainer #firstName,
+#employeeRegistration .personalInfoContainer #lastName {
+  width: 238px;
+}
+#employeeRegistration .personalInfoContainer .gForm-row:first-child {
+  margin-bottom: 0;
+}
+#employeeRegistration .personalInfoContainer .gForm-row .formField {
+  float: left;
+}
+#employeeRegistration .employAddressContainer .formField {
+  margin-bottom: 10px;
+}
+#employeeRegistration #password-strength {
+  margin-bottom: 10px;
+}
+#noRacfidCheckboxSection {
+  overflow: hidden;
+}
+#contactUsMessage,
+#contactUsMessageBlock {
+  padding: 0 0 10px 0;
+}
+.lt-ie9 .employAddressContainer input#city,
+.lt-ie10 .employAddressContainer input#city {
+  width: 140px;
+}
+.lt-ie9 .employAddressContainer input#zipCode,
+.lt-ie10 .employAddressContainer input#zipCode {
+  width: 50px;
+}
+.lt-ie9 .telephoneWithExt .phone,
+.lt-ie9 .telephoneWithExt .phone input {
+  width: 150px;
+}
+.lt-ie9 .telephoneWithExt .phoneExt,
+.lt-ie9 .telephoneWithExt .phoneExt input {
+  width: 100px;
+}
